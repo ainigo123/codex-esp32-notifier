@@ -1,0 +1,6 @@
+{
+  "host": "255.255.255.255",
+  "port": 3333,
+  "token": "change-me",
+  "message": "Codex task finished"
+}

@@ -1,0 +1,21 @@
+menu "Codex ESP32 Notifier"
+
+config NOTIFY_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+
+config NOTIFY_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+
+config NOTIFY_UDP_PORT
+    int "UDP listen port"
+    range 1 65535
+    default 3333
+
+config NOTIFY_SHARED_TOKEN
+    string "Shared notification token"
+    default "change-me"
+
+endmenu
+
